@@ -90,3 +90,36 @@ textarea{
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width:768px) {
+  .contenedorimagen h2{
+    
+    font-weight: 600;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .product {
+    position: relative;
+  }
+  section h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .product h2 {
+    margin: 0px;
+    padding: 0px;
+  }
+}
