@@ -271,7 +271,8 @@ footer i {
 /* -------------------- Animaciones -------------------- */
 
 .truck:hover {
-  animation: rotate-center 2s 1;
+  animation: rotate-center 2s infinite; /* nombre de la animacion, duración y cantidad de veces que se repite*/
+  animation-direction: alternate; /* Hace que cuando la animación llegue al final vuelva al principio en retroceso en vez de dar un salto brusco de 100% a 0% */
 }
 
 @keyframes rotate-center {
