@@ -281,14 +281,6 @@ footer i {
 
 /* -------------------- Animaciones -------------------- */
 
-.searchbar a:hover {
-    background-color: #666666;
-}
-
-.searchbar i:hover {
-    color: white;
-}
-
 .main-header li::after {
     content: '';
     position: absolute;
@@ -303,10 +295,6 @@ footer i {
     border-radius: 18px;
 }
 
-.main-header li:hover::after,
-.main-header li:focus::after {
-    transform: scale(1);
-}
 
 .product h2:hover {
     opacity: 1;
