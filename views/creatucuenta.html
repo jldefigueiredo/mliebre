@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/addaccount.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <script src="https://kit.fontawesome.com/ea592f04e6.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="main-header">
+
+        <div class="main-header-top-bar">
+            <a href="/">
+                <img src="/img/logo-mercado-liebre.svg" class="logo">
+            </a>
+            <div class="searchbar">
+                <input type="text">
+                <a href="#">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+            </div>
+
+            <h2 class="copy-header">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+            </h2>
+        </div>
+
+        <a href="#" class="menu-burger">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+
+        <nav class="main-navbar">
+            <ul class="left-navbar">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="/vender">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+
+            <ul class="right-navbar">
+                <li><a href="/creatucuenta">
+                        Crea tu cuenta <i class="fa-solid fa-address-card"></i>
+                    </a></li>
+                <li><a href="/ingresa">
+                        Ingresa <i class="fa-solid fa-user"></i>
+                    </a></li>
+                <li><a href="#">
+                        Mis compras <i class="fa-solid fa-basket-shopping"></i>
+                    </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <h3>Crea tu cuenta</h3>
+        <form>
+            <section class="register-box1">
+                <div class="form-item">
+                    <input placeholder="Nombre y Apellido" type="text" minlength="5" required class="inputbox">
+                </div>
+
+                <div class="form-item">
+                    <input placeholder="Nombre de usuario" type="text" required  class="inputbox">
+                </div>
+
+                <div class="form-item">
+                    <label class="label-pass" for="password">Fecha de nacimiento:</label>
+                    <input placeholder="contraseña" type="password" name="password" id="password"  class="inputbox">
+                    <label class="label-pass" for="confirmapass">Fecha de nacimiento:</label>
+                    <input placeholder="Confirma tu contraseña" name="confirmapass" id="confirmapass" type="password"  class="inputbox">
+                </div>
+
+                <div class="form-fechanac">
+                    <label class="form-box-title">Fecha de nacimiento:</label>
+                    <input type="date" class="inputbox">
+                </div>
+
+                <div class="form-item">
+                    <input placeholder="Domicilio" type="text" required class="inputbox">
+                </div>
+            </section>
+
+            <section class="register-box2">
+               
+
+                <div class="form-box">
+                    <label class="form-box-title">Intereses</label>
+                    <div class="checkboxes">
+                        <label>
+                            Electronica
+                            <input type="checkbox" name="" id="">
+                        </label>
+                        <label>
+                            Automoviles
+                            <input type="checkbox" name="" id="">
+                        </label>
+                        <label>
+                            Indumentaria
+                            <input type="checkbox" name="" id="">
+                        </label>
+                        <label>
+                            Gaming
+                            <input type="checkbox" name="" id="">
+                        </label>
+                        <label>
+                            Deportes
+                            <input type="checkbox" name="" id="">
+                        </label>
+                    </div>
+                </div>
+
+
+                <div class="form-box-submit">
+                    <button type="submit"><a href="/">Continuar</a></button>
+                   
+                </div>
+            </section>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-box">
+            <div>
+                <i class="fa-solid fa-credit-card"></i>
+                <h3>Paga con tarjeta o en efectivo</h3>
+                <p>Con Mercadoliebre cash tenes cuotas sin interes <br> ¡Y siempre es seguro!</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-shield-halved"></i>
+                <h3>Seguridad, de principio a fin</h3>
+                <p>¿No te gusta? ¡Devolvelo! En Mercado Libre, no hay nada que no puedas hacer, porque estás siempre protegido.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-gift"></i>
+                <h3>Envío gratis desde $ 4.000</h3>
+                <p>Solo por estar registrado en Mercado Libre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
