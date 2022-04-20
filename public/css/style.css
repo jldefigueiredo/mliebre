@@ -316,6 +316,24 @@ footer p {
     justify-content: center;
     align-items: stretch;
   }
+  .ultimosvistos {
+    position: relative;
+    top: 50px;
+  }
+  /*.ultimosvistos {
+    position: relative;
+    top: 50px;
+}*/
+  .home-banner {
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+/*.home-banner {
+  width: 100%;
+  position: relative;
+  top: 45px;
+}*/
 }
 @media (min-width: 768px) {
   .main-header-top-bar {
